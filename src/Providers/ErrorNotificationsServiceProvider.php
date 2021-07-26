@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Rankactive\ErrorsNotifications\Providers;
+namespace Providers;
 
 
 use Illuminate\Support\ServiceProvider;

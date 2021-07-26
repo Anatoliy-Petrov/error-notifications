@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Rankactive\ErrorsNotifications;
+namespace Classes;
 
 
 class ErrorNotification
