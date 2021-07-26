@@ -1,0 +1,26 @@
+{
+    "name": "rankactive/errors-notifications",
+    "description": "verious options to send errors notifications",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anatoliy Petrov",
+            "email": "anatoliy.petrov.mail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Rankactive\\ErrorsNotifications\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rankactive\\ErrorsNotifications\\Providers\\ErrorNotificationsServiceProvider"
+            ]
+        }
+    }
+}
