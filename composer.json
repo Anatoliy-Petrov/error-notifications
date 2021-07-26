@@ -12,14 +12,14 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "AnatoliyPetrov\\ErrorsNotifications\\": "src/"
+            "AnatoliyPetrov\\ErrorNotifications\\": "src/"
         }
     },
     "require": {},
     "extra": {
         "laravel": {
             "providers": [
-                "AnatoliyPetrov\\ErrorsNotifications\\Providers\\ErrorNotificationsServiceProvider"
+                "AnatoliyPetrov\\ErrorNotifications\\Providers\\ErrorNotificationsServiceProvider"
             ]
         }
     }
